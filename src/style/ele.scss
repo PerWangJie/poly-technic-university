@@ -1,0 +1,30 @@
+//element-ui相关
+.el-table {
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.el-form-item__label {
+    width: 177px;
+    /* padding-left: 60px; */
+}
+.el-form-item {
+    margin-left: 56px;
+}
+.el-date-editor {
+    width: 250px;
+}
+.el-icon-document {
+    padding-right: 4px;
+}
+//表格右部增减图标位置
+.el-col-offset-1 {
+    margin-left: 10px;
+}
+.el-button--small,
+.el-button--small.is-round {
+  /* margin-left: 5px; */
+  padding: 5px 15px 5px 15px;
+}
+.el-button--mini, .el-button--mini.is-round {
+    padding: 5px 5px;
+}

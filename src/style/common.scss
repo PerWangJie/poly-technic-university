@@ -1,0 +1,119 @@
+//1.表格部分
+//主要区域盒子背景及阴影
+.container {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 10px 0 10px 0;
+}
+//表格上面部分
+.header {
+  overflow: hidden;
+}
+.header-input {
+  width: 70%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.bottom {
+  margin-bottom: 40px;
+}
+//文本框
+.textarea {
+  margin-top: 14px;
+  padding-left: 56px;
+  font-size: 14px;
+}
+//分页
+.pagination {
+  text-align: center;
+  margin-top: 40px;
+}
+//2.表单部分
+//起止时间
+.date {
+  margin-left: -56px;
+}
+//关闭图标
+.close {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  color: #cccccc;
+  font-size: 16px;
+  position: fixed;
+  right: 50px;
+  top: 130px;
+  cursor: pointer;
+  z-index: 1000;
+}
+//蓝色圆点
+.small {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #237ae4;
+  display: inline-block;
+  margin-right: 7px;
+}
+//加减号
+.plus {
+  background:#666;
+  color:#fff;
+}
+//表格左边距
+.table-data {
+  margin-left: 56px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+//添加附件区域
+.append-btn {
+  margin-top: 30px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+//附件图标
+.append-img {
+  float: left;
+  line-height: 41px;
+  width: 12px;
+  height: 14px;
+}
+//附件区域文字
+.append-text {
+  margin-left: 8px;
+  display: inline-block;
+}
+//附件展示
+.fj {
+  color: #606266;
+  transition: color .3s;
+  &:hover {
+    color: #237ae4;
+  }
+}
+//提交区域
+.submit-box {
+  width: 97%;
+  background: rgba(255, 255, 255, 1);
+  border-top: 1px solid #eee;
+  text-align: center;
+  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+//提交按钮
+.submit-btn {
+  width: 13%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 16px;
+  /* background-color: #237ae4; */
+}
